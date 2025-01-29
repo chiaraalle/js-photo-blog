@@ -9,7 +9,7 @@ pattern {
 
 .pattern img {
     width: 100%;
-    height: 200px;
+    height: 160px;
 }
 
 .pattern h1 {
@@ -18,6 +18,16 @@ pattern {
     text-transform: uppercase;
     position: absolute;
     top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card {
+    position: relative;
+}
+
+.pin-photo { /*DA RIVEDERE PER CENTRARLO*/
+    position: absolute;
     left: 50%;
     transform: translate(-50%, -50%);
 }
