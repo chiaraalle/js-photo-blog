@@ -2,31 +2,25 @@ body {
     background-image: url(/img/cork.png);
 }
 
-pattern {
-    position: relative;
-    text-align: center;
-}
-
-.pattern img {
+.pattern {
+    background-image: url(/img/wall.png);
     width: 100%;
-    height: 160px;
+    height: 10vh;
+    padding-top: 15px;
 }
 
 .pattern h1 {
-    font-size: 100px;
+    text-align: center;
     font-weight: 800;
+    text-align: center;
     text-transform: uppercase;
-    position: absolute;
-    top: 10%;
-    left: 50%;
-    transform: translate(-50%, -50%);
 }
 
 .card {
     position: relative;
 }
 
-.pin-photo { /*DA RIVEDERE PER CENTRARLO*/
+.pin-photo { 
     position: absolute;
     left: 50%;
     transform: translate(-50%, -50%);

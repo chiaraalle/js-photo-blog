@@ -5,21 +5,8 @@
 
 }
 
-@media screen and (min-width: 420px){
-    .pattern img {
-        height: 100px;
-    }
-    .pattern h1 {
-        font-size: 40px;
-       
-    }
-
-    .pattern h1 {
-        position: absolute;
-        top: 5%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
-}
+/*@media screen and (min-width: 420px){
+   
+}*/
 
 
